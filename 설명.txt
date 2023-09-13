@@ -1,0 +1,13 @@
+1. electron-vue (electron-vue 합본, 따로 설치 안 함)
+https://github.com/SimulatedGREG/electron-vue
+* chalk 에러 나는 경우 npm i chalk
+** sass 설치 여부 물어볼 때 no 라고 해야 chalk 에러 안 남
+
+2. 부트스트랩뷰
+그대로 커맨드 띄워서
+https://bootstrap-vue.org/docs
+# With npm
+npm install vue bootstrap bootstrap-vue
+
+3. src/main/index.js에 
+import { app, BrowserWindow } from 'electron' 다 있음
